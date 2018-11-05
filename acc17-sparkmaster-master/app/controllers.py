@@ -8,8 +8,6 @@ import os
 
 import glob
 
-app = Flask(__name__)
-
 app.config['UPLOAD_FOLDER'] = 'uploads/'
 
 app.config['ALLOWED_EXTENSIONS'] = set(['txt', 'csv'])
